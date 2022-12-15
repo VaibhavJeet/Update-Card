@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Update Form</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://i.icomoon.io/public/temp/1efb2bfc65/UntitledProject/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="logoimage"><img src="images/Logo.svg" alt="">
+      <!-- <div class="btnclass"> -->
+      <input type="button" class="btn" value="Delete"> <!-- <span class="buttontext">Delete</span> -->
+      <!-- </div> -->
+    </div>
+
+    <div class="profileimage">
+      <div class="profileimagecontainer"></div>
+      <!-- <div class="delete"> -->
+      <div class="empty">
+        <input type="button" class="btn" value="Delete">
+      </div>
+      <!-- <button class="btn"><span class="buttontext">Delete</span></button> -->
+      <!-- </div> -->
+    </div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <input type="text" placeholder="Name" required>
+          </div>
+          <div class="input-box">
+            <input type="text" placeholder="Title/Position" required>
+          </div>
+          <div class="input-box">
+            <input type="email" placeholder="Email" required>
+          </div>
+          <div class="input-box">
+            <input id="phone" type="tel" name="phone" />
+          </div>
+          <div class="input-box">
+            <input type="text" placeholder="Website" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Social Profiles</span>
+            <div class="icon">
+              <span class="icon-facebook2 icon-f"></span>
+              <input type="text" placeholder="Facebook Handle" required>
+            </div>
+          </div>
+          <div class="input-box">
+            <div class="icon">
+              <span class="icon-instagram icon-f"></span>
+              <input type="text" placeholder="Instagram Handle" required>
+            </div>
+          </div>
+          <div class="input-box">
+            <div class="icon">
+              <span class="icon-twitter icon-f"></span>
+              <input type="text" placeholder="Twitter Handle" required>
+            </div>
+          </div>
+          <div class="input-box">
+            <div class="icon">
+              <span class="icon-linkedin icon-f"></span>
+              <input type="text" placeholder="LinkedIn Handle" required>
+              
+            </div>
+            <div class="company-details">
+              <input type="radio" name="company" id="dot-1">
+              <input type="radio" name="company" id="dot-2">
+              <div class="category">
+                <label for="dot-1">
+                  <span class="dot one"></span>
+                  <span class="company">Individual</span>
+                </label>
+                <label for="dot-2">
+                  <span class="dot two"></span>
+                  <span class="company">Company</span>
+                </label>
+              </div>
+            </div>
+          </div>
+          
+          <div class="input-box checkbtn">
+            <input autocomplete="off" role="combobox" list="" id="input" name="tags" placeholder="Tags" class="dropbtn"
+              multiple>
+            <datalist id="tags" role="listbox" class="dropdown-content">
+              <option value="Technology">Technology</option>
+              <option value="Engineering">Engineering</option>
+              <option value="Developer">Developer</option>
+              <option value="Cloud">Cloud</option>
+              <option value="Travel">Travel</option>
+              <option value="Microsoft">Microsoft</option>
+              <option value="Data Analytics">Data Analytics</option>
+              <option value="Back-end">Back-end</option>
+              <option value="Server">Server</option>
+              <option value="Python">Python</option>
+            </datalist>
+          </div>
+        </div>
+        <div class="buttons">
+          <div class="button">
+            <input type="submit" value="Cancel">
+          </div>
+          <div class="button">
+            <input type="submit" value="Update Card">
+          </div>
+        </div>
+      </form>
+      <div class="alert alert-info" style="display: none;"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+
+  <body>
+
+</html
